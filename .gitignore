@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Environment
+.venv/
+
+# Tool caches
+__pycache__/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# Build output
+dist/
+*.egg-info/
+
+# Database
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp/
+
+# Local working dirs
+loot/
+workspaces/
+docs/
